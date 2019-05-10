@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D419A99422863BA100BB1296 /* LokiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419A99322863BA100BB1296 /* LokiViewController.swift */; };
+		D419A99622863BB000BB1296 /* ThanosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419A99522863BB000BB1296 /* ThanosViewController.swift */; };
 		D49381292284B1330029AD24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49381282284B1330029AD24 /* AppDelegate.swift */; };
 		D493812B2284B1330029AD24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493812A2284B1330029AD24 /* ViewController.swift */; };
 		D493812E2284B1330029AD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D493812C2284B1330029AD24 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D419A99322863BA100BB1296 /* LokiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokiViewController.swift; sourceTree = "<group>"; };
+		D419A99522863BB000BB1296 /* ThanosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanosViewController.swift; sourceTree = "<group>"; };
 		D49381252284B1330029AD24 /* Avengers Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avengers Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49381282284B1330029AD24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D493812A2284B1330029AD24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 			children = (
 				D49381282284B1330029AD24 /* AppDelegate.swift */,
 				D493812A2284B1330029AD24 /* ViewController.swift */,
+				D419A99322863BA100BB1296 /* LokiViewController.swift */,
+				D419A99522863BB000BB1296 /* ThanosViewController.swift */,
 				D493813E2285A53E0029AD24 /* Pergunta.swift */,
 				D493813C2285A49A0029AD24 /* Dados.swift */,
 				D493812C2284B1330029AD24 /* Main.storyboard */,
@@ -143,8 +149,10 @@
 			files = (
 				D493813D2285A49A0029AD24 /* Dados.swift in Sources */,
 				D493812B2284B1330029AD24 /* ViewController.swift in Sources */,
+				D419A99422863BA100BB1296 /* LokiViewController.swift in Sources */,
 				D49381292284B1330029AD24 /* AppDelegate.swift in Sources */,
 				D493813F2285A53E0029AD24 /* Pergunta.swift in Sources */,
+				D419A99622863BB000BB1296 /* ThanosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

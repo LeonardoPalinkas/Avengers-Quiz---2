@@ -20,9 +20,37 @@ class perguntaUltron {
     var txtPergunta: String
     var txtResposta: [String]
     var respostaCorreta:Int
+
+}
+
+
+class perguntaLoki {
+    internal init(imgPergunta: String, txtPergunta: String, txtResposta: [String], respostaCorreta: Int) {
+        self.imgPergunta = imgPergunta
+        self.txtPergunta = txtPergunta
+        self.txtResposta = txtResposta
+        self.respostaCorreta = respostaCorreta
+    }
     
+    var imgPergunta: String
+    var txtPergunta: String
+    var txtResposta: [String]
+    var respostaCorreta:Int
+    
+}
 
 
-
-
+class perguntaThanos {
+    internal init(imgPergunta: String, txtPergunta: String, txtResposta: [String], respostaCorreta: Int) {
+        self.imgPergunta = imgPergunta
+        self.txtPergunta = txtPergunta
+        self.txtResposta = txtResposta
+        self.respostaCorreta = respostaCorreta
+    }
+    
+    var imgPergunta: String
+    var txtPergunta: String
+    var txtResposta: [String]
+    var respostaCorreta:Int
+    
 }

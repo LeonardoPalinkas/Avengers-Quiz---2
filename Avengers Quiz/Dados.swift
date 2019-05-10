@@ -47,3 +47,88 @@ class DadosUltron{
     
     private init (){}
 }
+
+
+class DadosLoki{
+    
+    static var shared = DadosLoki()
+    var perguntasLoki = [
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        
+    ]
+    
+    var perguntaAtualLoki = 0
+    
+    func proximaPerguntaLoki(){
+        if perguntaAtualLoki <= 7  {
+            perguntaAtualLoki += 1
+        } else  {
+            perguntaAtualLoki = 0
+            
+        }
+    }
+    
+    private init (){}
+}
+
+
+class DadosThanos{
+    
+    static var shared = DadosThanos()
+    var perguntasThanos = [
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        
+        ]
+    
+    var perguntaAtualThanos = 0
+    
+    func proximaPerguntaThanos(){
+        if perguntaAtualThanos <= 7  {
+            perguntaAtualThanos += 1
+        } else  {
+            perguntaAtualThanos = 0
+            
+        }
+    }
+    
+    private init (){}
+}
