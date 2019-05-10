@@ -220,7 +220,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="5Qa-uu-r4g" kind="relationship" relationship="rootViewController" id="f5O-Df-5Fv"/>
+                        <segue destination="uD7-V5-CPn" kind="relationship" relationship="rootViewController" id="Plt-ys-wGp"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tu3-YN-Kii" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -346,7 +346,6 @@
                         <outlet property="button4" destination="B71-xr-bWb" id="Tnh-1Y-6n8"/>
                         <outlet property="imgPergunta1" destination="O7J-RY-mzg" id="ff2-Xj-gZU"/>
                         <outlet property="proximaPergunta1" destination="YbS-UH-xi5" id="Rjc-YP-TMA"/>
-                        <outlet property="respostaErrada" destination="sRu-zL-A0c" id="uu0-G7-tPg"/>
                         <outlet property="txtPergunta1" destination="fwB-nw-8Nb" id="dhM-D2-bSq"/>
                         <outletCollection property="button" destination="mkn-Jz-Jlg" collectionClass="NSMutableArray" id="5vd-Eo-ieq"/>
                         <outletCollection property="button" destination="jUU-Vw-UhT" collectionClass="NSMutableArray" id="0OA-rw-76S"/>
@@ -359,38 +358,38 @@
             <point key="canvasLocation" x="2293" y="222"/>
         </scene>
         <!--nill-->
-        <scene sceneID="qmg-4r-uGF">
+        <scene sceneID="ROb-fy-kBI">
             <objects>
-                <viewController storyboardIdentifier="Thanos" id="5Qa-uu-r4g" customClass="ThanosViewController" customModule="Avengers_Quiz" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xWO-bX-TQn">
+                <viewController storyboardIdentifier="Thanos" id="uD7-V5-CPn" customClass="ThanosViewController" customModule="Avengers_Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3cg-bQ-0hu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="Ultron" image="Fundo" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kfm-9L-7il">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="Ultron" image="Fundo" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C60-ae-btS">
                                 <rect key="frame" x="-17" y="0.0" width="444" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bolhas roxa foto " translatesAutoresizingMaskIntoConstraints="NO" id="XHi-23-JmV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bolhas roxa foto " translatesAutoresizingMaskIntoConstraints="NO" id="vJW-nq-GBM">
                                 <rect key="frame" x="156" y="44" width="251" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bolhas roxa foto 2" translatesAutoresizingMaskIntoConstraints="NO" id="LIy-jU-urK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bolhas roxa foto 2" translatesAutoresizingMaskIntoConstraints="NO" id="b8Y-xb-DMN">
                                 <rect key="frame" x="-44" y="384" width="238" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WFF-sH-vWZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aGd-9e-MTr">
                                 <rect key="frame" x="24" y="94" width="370" height="315"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="caixa roxa texto" translatesAutoresizingMaskIntoConstraints="NO" id="vpo-Cx-Nxs">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="caixa roxa texto" translatesAutoresizingMaskIntoConstraints="NO" id="KzB-Ji-jK7">
                                 <rect key="frame" x="94" y="396.5" width="313" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bolhas roxa texto" translatesAutoresizingMaskIntoConstraints="NO" id="bqu-kG-bpx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bolhas roxa texto" translatesAutoresizingMaskIntoConstraints="NO" id="wWR-Co-9QL">
                                 <rect key="frame" x="228" y="449.5" width="169" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleAspectFit" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYf-FH-O2j">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleAspectFit" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmQ-ey-UeT">
                                 <rect key="frame" x="94" y="752" width="226" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51507651809999999" green="0.47397112850000001" blue="0.6823760271" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -399,18 +398,18 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="proximaPergunta:" destination="5Qa-uu-r4g" eventType="touchUpInside" id="0Z0-Ct-lKG"/>
-                                    <segue destination="5Qa-uu-r4g" kind="show" id="1qU-Oe-fqp"/>
+                                    <action selector="proximaPergunta:" destination="uD7-V5-CPn" eventType="touchUpInside" id="xB3-H7-aO0"/>
+                                    <segue destination="uD7-V5-CPn" kind="show" id="PII-we-4au"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="xvj-pV-CTd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="wPu-2g-Rre">
                                 <rect key="frame" x="124" y="412.5" width="261" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4c-qs-Fz8">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3V-8d-xVA">
                                 <rect key="frame" x="18" y="574" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51507651809999999" green="0.47397112850000001" blue="0.6823760271" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -419,10 +418,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="respostaPressed:" destination="5Qa-uu-r4g" eventType="touchUpInside" id="IRo-OS-YeB"/>
+                                    <action selector="respostaPressed:" destination="uD7-V5-CPn" eventType="touchUpInside" id="LOw-fo-126"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flB-fT-W23">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BU4-Zs-95V">
                                 <rect key="frame" x="18" y="612" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51507651809999999" green="0.47397112850000001" blue="0.6823760271" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -431,10 +430,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="respostaPressed:" destination="5Qa-uu-r4g" eventType="touchUpInside" id="FPR-gp-Ft3"/>
+                                    <action selector="respostaPressed:" destination="uD7-V5-CPn" eventType="touchUpInside" id="Nba-Nr-vTp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQr-hh-hWH">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDv-8O-GbO">
                                 <rect key="frame" x="18" y="650" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51507651809999999" green="0.47397112850000001" blue="0.6823760271" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -443,10 +442,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="respostaPressed:" destination="5Qa-uu-r4g" eventType="touchUpInside" id="eWP-UH-Bnt"/>
+                                    <action selector="respostaPressed:" destination="uD7-V5-CPn" eventType="touchUpInside" id="sz8-Qz-FBq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRx-6E-TKh">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cop-mG-BAM">
                                 <rect key="frame" x="18" y="688" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51507651809999999" green="0.47397112850000001" blue="0.6823760271" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -455,10 +454,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="respostaPressed:" destination="5Qa-uu-r4g" eventType="touchUpInside" id="h8N-db-4k6"/>
+                                    <action selector="respostaPressed:" destination="uD7-V5-CPn" eventType="touchUpInside" id="5iK-Np-Je4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resposta errada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLT-lc-9aP">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resposta errada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hit-jF-FiJ">
                                 <rect key="frame" x="227" y="545" width="165" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -467,25 +466,25 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="h2S-wh-BT8"/>
+                        <viewLayoutGuide key="safeArea" id="zUS-x3-MBC"/>
                     </view>
-                    <navigationItem key="navigationItem" title="nill" id="tQS-dk-7WW"/>
+                    <navigationItem key="navigationItem" title="nill" id="hm7-ii-DpL"/>
                     <connections>
-                        <outlet property="button1" destination="L4c-qs-Fz8" id="u93-fM-35q"/>
-                        <outlet property="button2" destination="flB-fT-W23" id="sbC-Kv-kH2"/>
-                        <outlet property="button3" destination="wQr-hh-hWH" id="t4i-RF-mSb"/>
-                        <outlet property="button4" destination="cRx-6E-TKh" id="T1f-SY-aGs"/>
-                        <outlet property="imgPergunta1" destination="WFF-sH-vWZ" id="gYQ-K7-qXd"/>
-                        <outlet property="proximaPergunta1" destination="HYf-FH-O2j" id="PQ9-BM-hDD"/>
-                        <outlet property="respostaErrada" destination="oLT-lc-9aP" id="lrH-vo-Jxa"/>
-                        <outlet property="txtPergunta1" destination="xvj-pV-CTd" id="Ed8-Vz-pWF"/>
-                        <outletCollection property="button" destination="wQr-hh-hWH" collectionClass="NSMutableArray" id="tJe-aH-W4l"/>
-                        <outletCollection property="button" destination="L4c-qs-Fz8" collectionClass="NSMutableArray" id="WND-p2-e7b"/>
-                        <outletCollection property="button" destination="flB-fT-W23" collectionClass="NSMutableArray" id="0Y2-nv-jzp"/>
-                        <outletCollection property="button" destination="cRx-6E-TKh" collectionClass="NSMutableArray" id="RLf-oy-MA1"/>
+                        <outlet property="button1" destination="O3V-8d-xVA" id="rwL-5a-a8X"/>
+                        <outlet property="button2" destination="BU4-Zs-95V" id="HPq-e1-YDZ"/>
+                        <outlet property="button3" destination="eDv-8O-GbO" id="ExZ-Qh-BJv"/>
+                        <outlet property="button4" destination="cop-mG-BAM" id="bHR-je-H6J"/>
+                        <outlet property="imgPergunta1" destination="aGd-9e-MTr" id="tnm-mk-0ot"/>
+                        <outlet property="proximaPergunta1" destination="lmQ-ey-UeT" id="pJm-xr-gpb"/>
+                        <outlet property="respostaErrada" destination="Hit-jF-FiJ" id="tkT-2p-XFF"/>
+                        <outlet property="txtPergunta1" destination="wPu-2g-Rre" id="fQF-Xs-0Gh"/>
+                        <outletCollection property="button" destination="eDv-8O-GbO" collectionClass="NSMutableArray" id="dqd-2j-tMd"/>
+                        <outletCollection property="button" destination="O3V-8d-xVA" collectionClass="NSMutableArray" id="Y4W-Kt-av2"/>
+                        <outletCollection property="button" destination="BU4-Zs-95V" collectionClass="NSMutableArray" id="xLC-2Q-V5t"/>
+                        <outletCollection property="button" destination="cop-mG-BAM" collectionClass="NSMutableArray" id="cy6-8j-RtN"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bWI-GX-cic" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YdX-fy-ylH" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2293" y="964"/>
         </scene>

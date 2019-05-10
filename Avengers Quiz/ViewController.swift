@@ -4,7 +4,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var imgPergunta1: UIImageView!
     @IBOutlet weak var txtPergunta1: UILabel!
     @IBOutlet weak var proximaPergunta1: UIButton!
-    @IBOutlet weak var respostaErrada: UILabel!
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
