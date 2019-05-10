@@ -144,7 +144,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="zzs-Z4-B3F">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="U3u-Ei-nZA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CrI-ZE-RbM" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -160,45 +159,13 @@
                         <segue destination="gZo-Mj-uSh" kind="relationship" relationship="viewControllers" id="xk7-Mk-Ugi"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U3u-Ei-nZA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="157" y="593"/>
-        </scene>
-        <!--Loki View Controller-->
-        <scene sceneID="2vK-eK-Cid">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j1A-Qx-c5r" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="Iiz-CZ-tp3" customClass="LokiViewController" customModule="Avengers_Quiz" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dAE-KJ-hMR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="aIg-TG-gwN"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="str-Lm-jQ2"/>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="2293" y="222"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="lXD-SF-bbn">
-            <objects>
-                <viewController id="yS8-qJ-JLJ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yAB-OC-kRq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="kTx-KR-NgE"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Zp7-Kd-TO2"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f2G-zr-Xrf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2293" y="964"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ajr-n0-SsK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B4L-Jb-8LG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="gSn-JV-Ndg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="Ultron" springLoaded="YES" id="CgE-zX-jgb">
                         <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
@@ -216,6 +183,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vZT-JJ-wsE"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4L-Jb-8LG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1382.608695652174" y="-538.39285714285711"/>
         </scene>
@@ -232,9 +200,6 @@
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Bf-wG-KBW">
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
-                    <connections>
-                        <segue destination="Iiz-CZ-tp3" kind="relationship" relationship="rootViewController" id="83t-Ra-BEl"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eyc-k7-rNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -251,9 +216,6 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="yS8-qJ-JLJ" kind="relationship" relationship="rootViewController" id="iy5-7p-tw1"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tu3-YN-Kii" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -266,7 +228,7 @@
         <image name="Thanos" width="33" height="62.5"/>
         <image name="Ultron" width="36" height="63"/>
         <image name="bolhas vermelhas foto" width="504" height="190"/>
-        <image name="bolhas vermelhas foto 2" width="260" height="340.5"/>
+        <image name="bolhas vermelhas foto 2" width="259.66665649414062" height="340.33334350585938"/>
         <image name="bolhas vermelhas texto" width="339.5" height="128"/>
         <image name="caixa texto vermelha" width="672.5" height="235"/>
     </resources>
