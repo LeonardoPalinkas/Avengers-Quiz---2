@@ -1,5 +1,6 @@
 
 import UIKit
+import AVFoundation
 
 class LokiViewController: UIViewController {
     @IBOutlet weak var imgPergunta1: UIImageView!
@@ -10,6 +11,7 @@ class LokiViewController: UIViewController {
     @IBOutlet weak var button3: UIButton!
     @IBOutlet weak var button4: UIButton!
     @IBOutlet var button: [UIButton]!
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +26,6 @@ class LokiViewController: UIViewController {
         button2.setTitle(perguntaAtual.txtResposta[1], for: .normal)
         button3.setTitle(perguntaAtual.txtResposta[2], for: .normal)
         button4.setTitle(perguntaAtual.txtResposta[3], for: .normal)
-        
-       
         
     }
     

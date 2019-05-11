@@ -129,7 +129,6 @@
                         <outlet property="button4" destination="jgF-f8-cYs" id="tkN-75-yhF"/>
                         <outlet property="imgPergunta1" destination="H8J-Nh-F7g" id="PjN-QY-bw7"/>
                         <outlet property="proximaPergunta1" destination="hcz-6l-Hc9" id="Alh-6n-463"/>
-                        <outlet property="respostaErrada" destination="bhF-Pz-l1l" id="T6e-2m-BIO"/>
                         <outlet property="txtPergunta1" destination="zFx-Fd-o6W" id="CP7-s6-kHO"/>
                         <outletCollection property="button" destination="sEG-hR-4Cj" collectionClass="NSMutableArray" id="dwM-JA-gPg"/>
                         <outletCollection property="button" destination="oTF-uc-3oJ" collectionClass="NSMutableArray" id="0vh-II-DcZ"/>
@@ -255,7 +254,7 @@
                                 <rect key="frame" x="94" y="396.5" width="313" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bolhas verde foto" translatesAutoresizingMaskIntoConstraints="NO" id="hMI-3J-N38">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bolhas verdes texto" translatesAutoresizingMaskIntoConstraints="NO" id="hMI-3J-N38">
                                 <rect key="frame" x="228" y="449.5" width="169" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -476,7 +475,6 @@
                         <outlet property="button4" destination="cop-mG-BAM" id="bHR-je-H6J"/>
                         <outlet property="imgPergunta1" destination="aGd-9e-MTr" id="tnm-mk-0ot"/>
                         <outlet property="proximaPergunta1" destination="lmQ-ey-UeT" id="pJm-xr-gpb"/>
-                        <outlet property="respostaErrada" destination="Hit-jF-FiJ" id="tkT-2p-XFF"/>
                         <outlet property="txtPergunta1" destination="wPu-2g-Rre" id="fQF-Xs-0Gh"/>
                         <outletCollection property="button" destination="eDv-8O-GbO" collectionClass="NSMutableArray" id="dqd-2j-tMd"/>
                         <outletCollection property="button" destination="O3V-8d-xVA" collectionClass="NSMutableArray" id="Y4W-Kt-av2"/>
@@ -499,6 +497,7 @@
         <image name="bolhas roxa texto" width="339.5" height="128"/>
         <image name="bolhas verde foto" width="504" height="190"/>
         <image name="bolhas verde foto 2" width="260" height="340.5"/>
+        <image name="bolhas verdes texto" width="339.5" height="128"/>
         <image name="bolhas vermelhas foto" width="504" height="190"/>
         <image name="bolhas vermelhas foto 2" width="259.66665649414062" height="340.33334350585938"/>
         <image name="bolhas vermelhas texto" width="339.5" height="128"/>

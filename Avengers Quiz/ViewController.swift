@@ -1,4 +1,5 @@
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     @IBOutlet weak var imgPergunta1: UIImageView!
@@ -12,6 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -23,11 +25,7 @@ class ViewController: UIViewController {
         button2.setTitle(perguntaAtual.txtResposta[1], for: .normal)
         button3.setTitle(perguntaAtual.txtResposta[2], for: .normal)
         button4.setTitle(perguntaAtual.txtResposta[3], for: .normal)
-        
-      /*  for (i, b) in self.button.enumerated() {
-            b.setTitle(perguntaAtual.txtResposta[i], for: .normal)
-    } */
-        
+    
     }
     
     @IBAction func respostaPressed(_ sender: UIButton) {
@@ -57,4 +55,5 @@ class ViewController: UIViewController {
         DadosUltron.shared.proximaPergunta()
         
     }
+    
 }

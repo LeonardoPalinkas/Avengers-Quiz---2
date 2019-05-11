@@ -54,25 +54,25 @@ class DadosLoki{
     static var shared = DadosLoki()
     var perguntasLoki = [
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta1-2", txtPergunta: "1. O Titã louco, Thanos, possui uma das armas mais poderosas jamais vistas no universo Marvel, ela tem a forca para suportar todas as joias do infinito. Seu nome é?", txtResposta: ["Manopla da Morte", "Manopla do Infinito", "Manopla Infinita", "Manoplas das Joias"], respostaCorreta: 1),
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta2-2", txtPergunta: "2. Durante o filme da Capita Marvel, descobrimos que Carol Denvers ganham seus poderes após uma explosão gerada por uma experiencia feita com qual artefato?", txtResposta: ["O cetro de Loki", "O orbe do poder", "O Tesseract", "O reator Ark"], respostaCorreta: 2),
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta3-2", txtPergunta: "3. Após um acidente ocorrido em Lagos, que matou dezenas de cidadãos de Wakanda, durante o filme Capitão America: Guerra Civil, o governo americano, junto à UNU decide regular as ações dos Vingadores a partir de um tratado, qual o seu nome? ", txtResposta: ["Tratado de Nova York", "Tratado de Sokovia", "Tratado de Super-Visão", "Tratado de Wakanda"], respostaCorreta: 1),
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta4-2", txtPergunta: "4. Durante o filme Capitão America: Guerra civil, Steve Rogers e Petter Parker se enfrentam, em certo momento eles falam onde nasceram na cidade de Nova York, quais seus bairros de origem, respectivamente?", txtResposta: ["Manhattan / Queens", "Brooklyn / Queens", "Queens / Brooklyn", "Manhattan / Brooklyn"], respostaCorreta: 1),
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta5-2", txtPergunta: "5. Durante o filme Vingadores: Guerra infinita, Thor, Rocket e Groot precisam encontrar um o planeta para criar uma arma possível de destruir Thanos, qual o nome do planeta e da arma, respectivamente? ", txtResposta: ["Sakaar / Gungnir", "Luganenhum / Rompe Tempestades", "Xandar / Nidavellir", "Nidavelir / Rompe Tormentas"], respostaCorreta: 3),
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta6-2", txtPergunta: "6. Tony Stark, em Homem de Ferro 2, esta tendo uma intoxicação por conta de um elemento, que esta sendo expelido pelo Reator Ark do seu peito, em sua corrente sangüínea, qual esse elemento?", txtResposta: ["Uranio", "Ferro", "Paladio", "Plutônio"], respostaCorreta: 2),
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta7-2", txtPergunta: "7. Petter Quill, o senhor das estrelas é extremamente fã da cultura pop dos anos 80, qual desses filmes ele considera uma obra prima?", txtResposta: ["Footlose", "Flash Gordon", "Flashdance", "Top Gun"], respostaCorreta: 0),
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta8-2", txtPergunta: "8. Thanos tem diversos filhos bizarros, eles são leias ao titã louco que, em Guerra infinita manda-os atrás das joias, desses, quais vem á terra em busca da joia do tempo?", txtResposta: ["Nebulosa e Fauce de Ébano", "Corvus Glave e Cull Obsidian", "Fauce de Ébano e Cull Obsidian", "Fauce de Ébano e Próxima Meia noite"], respostaCorreta: 2),
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta9-2", txtPergunta: "9. Tony Stark, em seu primeiro filme é preso por um grupo de terroristas que estão atras de suas tecnologias armamentistas, dentre elas um míssel, qual seu nome?", txtResposta: ["Jordania", "Jericó", "Messias", "Salomão"], respostaCorreta: 1),
         
-        perguntaLoki (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaLoki (imgPergunta: "pergunta10-2", txtPergunta: "10. Loki, o deus da mentira é irmão adotivo de Thor. Foi encontrado por Odin durante a guerra contra os gigantes de gelo, o que torna Loki um deles, sabendo disso, quem é o verdadeiro pai de Loki?", txtResposta: ["Volstagg", "Eitri", "Jotunheim", "Laufey"], respostaCorreta: 3),
         
         
     ]
@@ -80,7 +80,7 @@ class DadosLoki{
     var perguntaAtualLoki = 0
     
     func proximaPerguntaLoki(){
-        if perguntaAtualLoki <= 7  {
+        if perguntaAtualLoki <= 8  {
             perguntaAtualLoki += 1
         } else  {
             perguntaAtualLoki = 0
