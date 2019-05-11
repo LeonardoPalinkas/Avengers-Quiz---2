@@ -97,32 +97,32 @@ class DadosThanos{
     static var shared = DadosThanos()
     var perguntasThanos = [
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta1-3", txtPergunta: "1. Petter Quill é meio humano, sua mãe é humana e seu pai é um planeta vivo chamado Ego, ele é um ser de milhões de anos que faz parte de um grupo de seres chamados?", txtResposta: ["Imortaisa", "Celestiais", "Divinos", "Etéreos"], respostaCorreta: 1),
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta2-3", txtPergunta: "2. Durante o filme Pantera Negra, quando T’Challa toma a planta coração para receber os poderes do pantera, ele vai para um plano astral onde encontra-se com seu pai, qual lo nome desse local?", txtResposta: ["Vahalha", "Wahajila", "Djalia", "Vormir"], respostaCorreta: 2),
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta3-3", txtPergunta: "3. Stephen Strange, durante seu treinamento aprende a abrir portais por meio de um artefato místico, qual seu nome?", txtResposta: ["Anel de Agamotto", "Anel dos Portais", "Anel de Tranporte", "Anel de Acesso"], respostaCorreta: 3),
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta4-3", txtPergunta: "4. No filme Vingadores: Ultimato existem referencias claras a acontecimentos ou cenas icônicas dos quadrinhos, desses, qual nunca apareceu em uma HQ?", txtResposta: ["O espantalho com a armadura de Thanos", "Capitão América dizendo Hail Hydra", "O capacete classico do Homem-Formiga", "A manopla de Ferro"], respostaCorreta: 3),
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta5-3", txtPergunta: "5. Durante Thor: Ragnarok, uma das cenas em Sakaar mostra um prédio enorme, lar do Grão Mestre, na fachada desse prédio é possível ver diversos rostos, dentre eles o de Hulk que esta sendo construído. Qual desses personagens não aparecem nesse prédio?", txtResposta: ["O rosto de Ares", "O rosto de Adam Warlock","O rosto de Bill Raio Beta","O rosto de Bi-Fera"], respostaCorreta: 1),
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta6-3", txtPergunta: "6. Na Marvel, existem diversas realidades e dimensões, destas a Terra que acompanhamos no Universo Marvel dos cinemas é a Terra?", txtResposta: ["1543", "2019", "51", "616"], respostaCorreta: 3),
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta7-3", txtPergunta: "7. Em homem de Ferro 3, Tony Stark é auxiliado tanto tecnicamente quanto emocionalmente por um garoto que mora em uma pequena cidade interiorana, qual o nome dele?", txtResposta: ["Harley", "Henley", "Steve","Stan"], respostaCorreta: 0),
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta8-3", txtPergunta: "8. O caveira vermelha, no primeiro filme do Capitão America, encontra o Tesseract em uma pequena cidade, qual o seu nome?", txtResposta: ["Nuremberg","Jotunsberg","Tonsberg","Vindemberg"], respostaCorreta: 2),
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta9-3", txtPergunta: "9. Nos quadrinhos os guardiões da Galaxia não foram sempre liderados por Petter Quill, sua primeira formação era comandada por?", txtResposta: ["Rocket", "Mantis","Nebulosa", "Yondu"], respostaCorreta: 3),
         
-        perguntaThanos (imgPergunta: "pergunta1", txtPergunta: "1. Durante o filme Vingadores (2009) quem foi o herói/heroína que ficou controlado(a) pelo deus da trapaça, Loki?", txtResposta: ["Capitão America", "Nick Fury", "Gavião Arqueiro", "Viuva Negra"], respostaCorreta: 2),
+        perguntaThanos (imgPergunta: "pergunta10-3", txtPergunta: "10. Homem de ferro ja teve dezenas de armaduras, dessas qual ele utilizou para enfrentar Ultron?", txtResposta: ["Mark 45", "Mark 42", "Mark 50", "Mark 47"], respostaCorreta: 0),
         
         ]
     
     var perguntaAtualThanos = 0
     
     func proximaPerguntaThanos(){
-        if perguntaAtualThanos <= 7  {
+        if perguntaAtualThanos <= 8  {
             perguntaAtualThanos += 1
         } else  {
             perguntaAtualThanos = 0
