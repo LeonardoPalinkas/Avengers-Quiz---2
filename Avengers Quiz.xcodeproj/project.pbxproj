@@ -17,6 +17,9 @@
 		D49381332284B1340029AD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49381312284B1340029AD24 /* LaunchScreen.storyboard */; };
 		D493813D2285A49A0029AD24 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493813C2285A49A0029AD24 /* Dados.swift */; };
 		D493813F2285A53E0029AD24 /* Pergunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493813E2285A53E0029AD24 /* Pergunta.swift */; };
+		D4E7F68722A5613C00AA60AB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7F68622A5613C00AA60AB /* ResultViewController.swift */; };
+		D4E7F68922A5C0EB00AA60AB /* Result2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7F68822A5C0EB00AA60AB /* Result2ViewController.swift */; };
+		D4E7F68B22A5C9A600AA60AB /* Result3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7F68A22A5C9A600AA60AB /* Result3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		D49381342284B1340029AD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D493813C2285A49A0029AD24 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 		D493813E2285A53E0029AD24 /* Pergunta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pergunta.swift; sourceTree = "<group>"; };
+		D4E7F68622A5613C00AA60AB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		D4E7F68822A5C0EB00AA60AB /* Result2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result2ViewController.swift; sourceTree = "<group>"; };
+		D4E7F68A22A5C9A600AA60AB /* Result3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 				D493812F2284B1340029AD24 /* Assets.xcassets */,
 				D49381312284B1340029AD24 /* LaunchScreen.storyboard */,
 				D49381342284B1340029AD24 /* Info.plist */,
+				D4E7F68622A5613C00AA60AB /* ResultViewController.swift */,
+				D4E7F68822A5C0EB00AA60AB /* Result2ViewController.swift */,
+				D4E7F68A22A5C9A600AA60AB /* Result3ViewController.swift */,
 			);
 			path = "Avengers Quiz";
 			sourceTree = "<group>";
@@ -153,9 +162,12 @@
 			files = (
 				D493813D2285A49A0029AD24 /* Dados.swift in Sources */,
 				D493812B2284B1330029AD24 /* ViewController.swift in Sources */,
+				D4E7F68722A5613C00AA60AB /* ResultViewController.swift in Sources */,
+				D4E7F68B22A5C9A600AA60AB /* Result3ViewController.swift in Sources */,
 				D419A99422863BA100BB1296 /* LokiViewController.swift in Sources */,
 				D49381292284B1330029AD24 /* AppDelegate.swift in Sources */,
 				D493813F2285A53E0029AD24 /* Pergunta.swift in Sources */,
+				D4E7F68922A5C0EB00AA60AB /* Result2ViewController.swift in Sources */,
 				D419A9982286414C00BB1296 /* ThanosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

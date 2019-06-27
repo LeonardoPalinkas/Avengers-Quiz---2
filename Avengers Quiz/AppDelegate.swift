@@ -14,33 +14,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        playSound()
-
-        return true
-    }
-    
-    var backGroundPlayers = AVAudioPlayer()
-    var player: AVAudioPlayer?
-    
-    func playSound() {
-        guard let url = Bundle.main.url(forResource:"Thanos", withExtension: "mp3") else { return }
-        do {
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
-            try AVAudioSession.sharedInstance().setActive(true)
-            
-            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
-            
-            guard let player = player else { return }
-            
-            player.play()
-            
-            
-        } catch let error {
-            print(error.localizedDescription)
-        }
-    }
+//
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        playSound()
+//        playSound()
+//
+//
+//        return true
+//    }
+//
+//    var backGroundPlayers = AVAudioPlayer()
+//    var player: AVAudioPlayer?
+//
+//    func playSound() {
+//        guard let url = Bundle.main.url(forResource:"Thanos", withExtension: "mp3") else { return }
+//        do {
+//            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+//            try AVAudioSession.sharedInstance().setActive(true)
+//
+//            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+//
+//            guard let player = player else { return }
+//
+//            player.play()
+//
+//
+//        } catch let error {
+//            print(error.localizedDescription)
+//        }
+//    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
